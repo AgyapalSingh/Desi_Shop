@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+:root {
+  /* --bg-color: #184D47; */
+  --bg-color: #2A2F4F;
+  /* --bg-color: #E57C23; */
+  /* --bg-color: #2E3840; */
+  /* --bg-color: #025464; */
+}
+
+
+/* CAROUSEL */
+
+#carouselExampleAutoplaying {
+  margin-top: 100px;
+  width: 90vw;
+  margin-left: 5vw;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item {
+  border: none;
+}
+
+.carasol-img {
+  width: 90vw !important;
+  height: 450px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  padding: 30px;
+  margin-left: 0 !important;
+  background-color: var(--bg-color);
+}
+
+
+
+/* HERO SECTION */
+
+#hero {
+  margin-top: 60px;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: var(--bg-color); */
+  background-image: linear-gradient(to right, #2A2F4F, rgb(126, 126, 126));
+  /* background-color: #edbe95; */
+
+  color: rgb(3, 3, 3);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-detail {
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero-detail h4 {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.hero-detail h1 {
+  margin-bottom: -20px;
+  color: rgb(212, 212, 212);
+  font-size: 3rem;
+}
+
+.hero-detail p {
+  margin-top: 15px;
+  color: rgb(224, 224, 224);
+}
+
+.hero-detail button {
+
+  color: var(--bg-color);
+  border: 0;
+  height: 50px;
+  font-family: "Poppins";
+  font-weight: bold;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 50px;
+  border: 1px solid var(--bg-color);
+  background-color: white;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.hero-img {
+  padding: 10px 80px;
+  padding-right: 200px;
+}
+
+.hero-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img {
+  transition: transform 0.4s ease;
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+}
+
+
+
+/* All Products */
+
+.all-products {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 10px 0px 20px 0px;
+  font-family: "Poppins";
+  /* background-color: #edbe95; */
+}
+
+.all-products-added {
+  border-left: 1px solid grey;
+}
+
+.all-products-added h1 {
+  color: var(--bg-color);
+  font-family: "Poppins";
+}
+
+.btn-dark {
+  background-color: var(--bg-color);
+}
+
+/* ================== filters ============== */
+
+.filters h4 {
+  margin-top: 100px;
+  color: white !important;
+  background-color: var(--bg-color);
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.categories-created-check {
+  font-weight: 500;
+  font-weight: "Poppins";
+}
+
+/* .ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+} */
+
+.ant-checkbox-wrapper {
+  margin-left: 2px;
+}
+
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: var(--bg-color);
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+
+
+#summers {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  /* background-color: var(--bg-color);
+  color: white; */
+}
+
+.electronics {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+#summers::-webkit-scrollbar {
+  display: none;
+}
+
+#summer-appliances {
+  /* width: 20%; */
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+  /* background-color: #edbe95; */
+
+
+}
+
+#summer-appliances p {
+  padding-left: 30px;
+  font-size: 1.9rem;
+  padding-right: 20px;
+}
+
+#summer-appliances input {
+  background: var(--bg-color);
+  color: white;
+  font-size: 15px;
+  outline: none;
+  height: 45px;
+  border: none;
+  width: 120px;
+  border-radius: 3px;
+}
+
+
+#appliance {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+  padding: 2px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* background-color: white; */
+  /* background-color: #edbe95 !important; */
+}
+
+
+
+#appliance img {
+  height: 180px;
+  width: 180px;
+  /* height: 20vh;
+  width: 10vw; */
+  transition: transform 0.3s ease;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 5px;
+}
+
+#appliance img:hover {
+  transform: scale(0.8);
+}
+
+
+#appliance span {
+  color: green;
+}
+
+#appliance button {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  background-color: var(--bg-color);
+  color: white;
+  border-radius: 5px;
+}
+
+.electronics #appliance {
+  box-shadow: 0px 1px 3px rgba(255, 255, 255, 0.3);
+  background-color: white;
+}
+
+
+.electronics #appliance p {
+  color: var(--bg-color);
+}
+
+
+
+
+#WhatYouCanBuy {
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px 10px 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #edbe95; */
+}
+
+#WhatYouCanBuy h6 {
+  color: rgb(71, 71, 71);
+  border-bottom: 1px solid grey;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#WhatYouCanBuy p {
+  color: rgb(101, 101, 101);
+  font-size: 11px;
+
+}
+
+
+/* MEDIA QUERY FOR HOME SCREEN */
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  #hero {
+    width: 100%;
+  }
+
+  .hero-detail {
+    padding: 0;
+    padding-left: 10%;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  #WhatYouCanBuy {
+    width: 90%;
+  }
+
+  #carouselExampleAutoplaying {
+    width: 90%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 922px) {
+  .hero-detail {
+    padding: 0;
+    padding-left: 20%;
+  }
+}

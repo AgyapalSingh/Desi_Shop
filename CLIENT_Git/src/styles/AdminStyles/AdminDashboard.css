@@ -1,0 +1,143 @@
+:root {
+    /* --bg-color: #184D47; */
+    --bg-color: #2A2F4F;
+    /* --bg-color: #E57C23; */
+    /* --bg-color: #2E3840; */
+    /* --bg-color: #025464; */
+}
+
+/* ADMIN DASHBOARD */
+.dashboard {
+    width: 90%;
+    margin-top: 80px !important;
+    font-family: "Poppins";
+}
+
+.dashboard-menu {
+    font-family: "Poppins";
+}
+
+.dashboard-menu h4 {
+    background-color: var(--bg-color) !important;
+    color: white;
+    padding: 20px 0px;
+}
+
+
+.admin-details h2 {
+    color: var(--bg-color);
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+}
+
+.admin-details h4 {
+    color: rgb(94, 94, 94);
+}
+
+
+/* CREATE CATEGORY */
+
+.manage-cat {
+    font-family: "Poppins";
+}
+
+.manage-cat .btn-primary {
+    background-color: var(--bg-color) !important;
+    color: white;
+    border: none;
+}
+
+.edit-btn:hover {
+    background-color: white !important;
+    color: var(--bg-color) !important;
+    outline: 1px solid var(--bg-color);
+}
+
+.manage-cat .btn-danger {
+    background-color: rgb(233, 50, 50);
+}
+
+.manage-cat .btn-danger:hover {
+    background-color: rgb(179, 66, 66);
+}
+
+
+/* CREATE PRODUCT */
+
+.create-product {
+    font-family: "Poppins";
+}
+
+.create-product .btn-primary {
+    background-color: var(--bg-color);
+    color: white;
+    border: none;
+}
+
+
+.card-img-top {
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(0.8);
+}
+
+.card-item-price {
+    color: green;
+}
+
+/* PRODUCTS */
+.admin-product-list {
+    font-family: "Poppins";
+}
+
+.admin-product-list .btn-primary {
+    background-color: var(--bg-color);
+    border: none;
+}
+
+
+
+/* Admin Orders */
+
+.admin-orders {
+    font-family: "Poppins";
+}
+
+.admin-orders .order-details {
+    margin-top: 15px;
+}
+
+
+
+.table thead {
+    background-color: var(--bg-color);
+    color: white;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    .dashboard {
+        width: 100%;
+    }
+
+    .form-container form {
+        width: 100%;
+    }
+
+    .table {
+        display: none;
+        overflow: auto;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {
+    .dashboard {
+        width: 90%;
+    }
+}

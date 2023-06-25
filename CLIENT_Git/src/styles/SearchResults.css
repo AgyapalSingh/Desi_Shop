@@ -1,0 +1,15 @@
+.btn-primary {
+    background-color: white;
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
+}
+
+.card-text-price {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.search-results {
+    margin-top: 80px;
+    align-items: center;
+}

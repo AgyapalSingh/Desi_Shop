@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --bg-color: #184D47; */
+  --bg-color: #2A2F4F;
+  /* --bg-color: #E57C23; */
+  /* --bg-color: #2E3840; */
+  /* --bg-color: #025464; */
+}
+
+
+/* //navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  /* background-color: #E57C23 !important; */
+  /* color: white !important; */
+
+  /* background-color: var(--bg-color) !important;
+  color: white !important; */
+}
+
+
+.nav-link {
+  font-weight: 300 !important;
+
+  /* color: white !important; */
+}
+
+.active {
+  border-bottom: 2px solid black;
+
+  border-bottom: 2px solid white;
+}
+
+/* .navbar-brand {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+} */
+
+.navbar-brand-img {
+  width: 5%;
+  margin-left: 40px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.search-form input {
+  border: none;
+  border-radius: 0;
+  width: 150px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.search-form input:hover {
+  outline: 1px solid var(--bg-color);
+}
+
+.search-form button {
+  background-color: var(--bg-color);
+  border-radius: 0;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+.search-form button:hover {
+  background-color: white;
+  color: var(--bg-color);
+  outline: 1px solid var(--bg-color);
+}
+
+
+
+
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.policy-div {
+  margin-top: 105px;
+}
+
+.policy-header {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.policy-header h1 {
+  background-color: var(--bg-color) !important;
+}
+
+.Policies-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-us {
+  font-family: "Poppins";
+}
+
+.contact-us h1 {
+  background-color: var(--bg-color) !important;
+}
+
+.privacy-header {
+  margin-top: 15px;
+  font-family: "Poppins";
+  background-color: var(--bg-color) !important;
+}
+
+
+
+/* ========================================= */
+/* =========About us ========= */
+
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: var(--bg-color) !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: 1px solid var(--bg-color);
+  color: var(--bg-color);
+}
+
+.cat-btn:hover {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+
+/* =============================
+==========footer============= */
+
+#footerDiv {
+  display: flex;
+  width: 100%;
+  height: 380px;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: var(--bg-color);
+}
+
+#footLeft {
+  width: 20%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 50px;
+}
+
+#footLeft #foot-logo {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+#footLeft #social {
+  display: flex;
+}
+
+#footLeft #social img {
+  width: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+#footCenLeft {
+  width: 20%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 50px;
+}
+
+#footCenLeft p {
+  color: rgb(196, 196, 196);
+}
+
+#footCenLeft span .link-pages {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+#footCenRight {
+  width: 20%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 50px;
+}
+
+#footCenRight p {
+  color: rgb(196, 196, 196);
+}
+
+#footCenRight span {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+}
+
+#footRight {
+  width: 35%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 50px;
+}
+
+#email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#email img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#email span {
+  font-size: 12px;
+  color: white;
+}
+
+#subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+#subscribe #writeEmail {
+  background: transparent;
+  outline: none;
+  height: 50px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#subscribe #send-btn {
+  background-color: red;
+  /* background: rgb(55, 32, 172); */
+  color: white;
+  font-size: 15px;
+  outline: none;
+  height: 50px;
+  border: none;
+  width: 150px;
+  border-radius: 5px;
+}
+
+#subscribe #send-btn:hover {
+  background-color: black;
+}
+
+.footer-copy {
+  margin-top: 3px;
+  background-color: #1d213f;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 769px) {
+  .links-for-mobile {
+    display: none;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #footerDiv {
+    justify-content: space-around;
+  }
+
+  #footLeft {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 5%;
+  }
+
+  #footCenLeft {
+    display: none;
+  }
+
+  #footCenRight {
+    display: none;
+  }
+
+  #footRight {
+    width: 50%;
+    margin-right: 5%;
+  }
+
+  #subscribe #send-btn {
+    width: 100px;
+  }
+
+  .links-for-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 6px;
+
+
+  }
+
+  .links-for-mobile span .link-pages {
+
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    margin-bottom: 5px;
+  }
+
+  .contactus-img-div {
+    display: none;
+  }
+}
