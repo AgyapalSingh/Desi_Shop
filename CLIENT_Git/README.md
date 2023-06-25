@@ -1,3 +1,11 @@
+# Create .env file in CLIENT_Git folder
+and 
+write - REACT_APP_API = http://localhost: #port on which you want to run this
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
